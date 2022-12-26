@@ -1,3 +1,3 @@
 export function noop() {
-  /* noop */
+  console.log('its working')
 }
