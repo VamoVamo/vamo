@@ -19,5 +19,18 @@
       "no-restricted-syntax": "off",
       "class-methods-use-this": "off",
       "react/jsx-props-no-spreading": "off"
+    },
+    "settings": {
+      "import/parsers": {
+        "@typescript-eslint/parser": [".ts", ".tsx"]
+      },
+      "import/resolver": {
+        "typescript": {
+          "project": ["tsconfig.json", "package/tsconfig.json"]
+        },
+        "node": {
+          "project": ["tsconfig.json", "package/tsconfig.json"]
+        }
+      }
     }
   }
