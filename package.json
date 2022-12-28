@@ -2,14 +2,16 @@
   "name": "root",
   "private": true,
   "workspaces": [
-    "packages/*","apps/*","components/*"
+    "packages/*",
+    "apps/*",
+    "components/*"
   ],
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "test": "lerna run test"
   },
   "devDependencies": {
-    "lerna": "6.3.0",
-    "eslint-config-airbnb-typescript-prettier": "^5.0.0"
+    "eslint-config-airbnb-typescript-prettier": "^5.0.0",
+    "lerna": "6.3.0"
   }
 }
