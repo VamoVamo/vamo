@@ -16,6 +16,8 @@
     "components": "^0.0.0",
     "eslint": "8.30.0",
     "eslint-config-next": "13.1.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "next": "13.1.1",
     "noop": "*",
     "react": "18.2.0",

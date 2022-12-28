@@ -1,13 +1,13 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import Image from 'next/image';
+import { Inter } from '@next/font/google';
 import { noop } from 'noop';
-import { Button } from 'components'
+import { Button } from 'components';
+import styles from '../styles/Home.module.css';
 
 noop();
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
         <div className={styles.description}>
           <p>
             Get started by editing&nbsp;
-            <Button label='pepino' />
+            <Button label="pepino" />
             <code className={styles.code}>pages/index.tsx</code>
           </p>
           <div>
@@ -124,5 +124,5 @@ export default function Home() {
         </div>
       </main>
     </>
-  )
+  );
 }
