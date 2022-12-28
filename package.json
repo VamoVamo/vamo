@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "lint": "lerna run lint"
   },
   "devDependencies": {
     "eslint-config-airbnb-typescript-prettier": "^5.0.0",
