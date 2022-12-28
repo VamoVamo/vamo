@@ -1,9 +1,8 @@
 import React from 'react';
-import './Button.scss'; 
-
+import './Button.scss';
 
 export interface ButtonProps {
-  label: string;
+	label: string;
 }
 
 const Button = (props: ButtonProps) => {

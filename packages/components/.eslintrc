@@ -42,6 +42,9 @@
     "@typescript-eslint/no-useless-constructor": ["error"],
     "no-restricted-syntax": "off",
     "class-methods-use-this": "off"
+  },
+  "ignorePatterns": ["dist"],
+  "globals": {
+    "module": true
   }
-
 }

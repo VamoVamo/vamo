@@ -23,6 +23,8 @@
     "build": "rollup -c --bundleConfigAsCjs",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "build-storybook": "build-storybook"
   },
   "bugs": {
