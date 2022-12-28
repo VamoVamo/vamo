@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import { noop } from 'noop';
+import { Button } from 'components'
 
 noop();
 
@@ -21,6 +22,7 @@ export default function Home() {
         <div className={styles.description}>
           <p>
             Get started by editing&nbsp;
+            <Button label='pepino' />
             <code className={styles.code}>pages/index.tsx</code>
           </p>
           <div>
